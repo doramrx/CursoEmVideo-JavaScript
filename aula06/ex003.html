@@ -19,11 +19,18 @@
 
 
     <script>
-        window.alert("Hello World")
-        window.confirm("Are you enjoying it?")
-        window.prompt("What is your name?")
 
-        document.getElementById("demo").innerHTML = "Hello JavaScript"
+        var v1 = Number.parseInt(window.prompt("Informe um número"))
+        var v2 = Number.parseInt(window.prompt("Informe outro número"))
+        var soma =  v1 + v2
+        window.alert('Soma: ' + soma)
+
+        var v3 = Number(window.prompt("Informe um número"))
+        var v4 = Number(window.prompt("Informe outro número"))
+        var soma2 =  v3 + v4
+        window.alert(`A Soma é ${soma2}`)
+
+        
     </script>
 
 </body>

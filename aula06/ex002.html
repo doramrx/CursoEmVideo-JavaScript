@@ -19,9 +19,10 @@
 
 
     <script>
-        window.alert("Hello World")
-        window.confirm("Are you enjoying it?")
-        window.prompt("What is your name?")
+
+        var name = window.prompt("What is your name?")
+
+        window.alert('Olá, ' + name);
 
         document.getElementById("demo").innerHTML = "Hello JavaScript"
     </script>
