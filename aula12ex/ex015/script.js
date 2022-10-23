@@ -9,8 +9,10 @@ function verificar() {
     window.alert('Erro! Verifique os dados e tente novamente')
   } else {
     var fsex = window.document.getElementsByName('radsex')
+
     var img = document.createElement('img')
     img.setAttribute('id', 'foto')
+    
     var idade = anoAtual - ano
     var sexo = ''
 
